@@ -1,17 +1,38 @@
-body{
-    display: flex;
-    flex-direction: column;
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+body {
+  margin-top: -20px;
+  display: flex;
+  flex-direction: column;
 }
 
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
 }
 
-.foodimg{
-    width: 500px;
+.foodimg {
+  width: 500px;
 }
 
-img{
-    margin-left: auto;
-    margin-right: auto;
+img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  font-family: "Dancing Script", cursive;
+  border-color: aqua;
+  border-radius: 10px;
+  border-style: solid;
+  border-bottom-color: brown;
+  background-color: antiquewhite;
+  font-size: 3em;
+  width: 500px;
+  align-self: center;
+}
+
+a {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: rgb(55, 0, 255);
 }
