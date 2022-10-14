@@ -37,7 +37,7 @@ a {
   color: rgb(55, 0, 255);
 }
 
-.maindiv > div {
+.maindiv {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
