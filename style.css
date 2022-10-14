@@ -8,8 +8,18 @@ body {
 
 h1 {
   text-align: center;
+  font-weight: 500;
 }
 
+p::first-letter {
+  color: red;
+  font-weight: bold;
+}
+
+ul > li::first-letter {
+  color: blue;
+  font-weight: bolder;
+}
 .foodimg {
   width: 500px;
 }
