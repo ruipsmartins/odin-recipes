@@ -28,6 +28,9 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+img[src="images/MasterChef.jpg"] {
+  width: 600px;
+}
 
 .title {
   font-family: "Dancing Script", cursive;
